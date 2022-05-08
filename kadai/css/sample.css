@@ -1,0 +1,284 @@
+header{
+  padding-left: 60px;
+  border-radius: 75px; 
+  display: flex;
+}
+
+.main{
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Yu Gothic", YuGothic, sans-serif;
+  background-image:URL("../img/cheese-background.jpg");
+  background-color:rgba(255,255,255,0.8);
+  background-blend-mode:lighten;
+}
+
+ .choose_box {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  
+  
+  
+}
+ .choose_box p {
+  font-size: 24px;
+  display: block;
+  font-weight: 600;
+  text-align: center;
+  margin-top: -42px;
+  font-family: "M PLUS Rounded 1c";  
+  }
+
+.choose_box ul {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  display:flex;
+  flex-wrap: wrap;
+  
+}
+.choose_box ul li {
+  width: calc(100% / 2 - 20px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.choose_box ul li:nth-child(2n) {
+   margin-right: 0;
+}
+.choose_box ul li a {
+  color: #fff;
+  display: block;
+  padding: 45px 30px;
+  text-align: center;
+  background-color: #FCAA00;
+  font-weight: 800;
+  font-size: 16px;
+  border: 2px solid #FCAA00;
+  text-decoration: none;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  font-family: "M PLUS Rounded 1c";  
+  
+}
+
+.choose_box ul li a:hover {
+   background-color: #fff;
+  color: #2791d4;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -o-transition: 0.7s;
+    transition: 0.7s;
+}
+
+/* .app-theme p {
+  color: #2791d4;
+ 
+  
+} */
+
+
+.fit {
+  position: absolute;
+  left: 0px;
+  top: 20px;
+  width: 100%;
+}
+
+.fit p {
+  margin-top: 5%;
+  margin-bottom: 5%;
+    font-size: 30px;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c";  
+  }
+
+
+.result_type0 h4 {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    background-color: #10c010;
+    font-family: "M PLUS Rounded 1c";  
+
+  }
+
+.result_type1 h4 {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+  background-color: #DC143C;
+  font-family: "M PLUS Rounded 1c";  
+  }
+.result_type2 h4 {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+  background-color: #DC143C;
+  font-family: "M PLUS Rounded 1c";  
+  }
+.result_type3 h4 {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+  background-color: #DC143C;
+  font-family: "M PLUS Rounded 1c";  
+  }
+
+
+
+
+.result_theme p  {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c";  
+}
+
+
+.result_discription0 {
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: "M PLUS Rounded 1c";  
+}
+.result_discription1 {
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: "M PLUS Rounded 1c";  
+}
+.result_discription0 h2 {
+    color: #10c010;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c";  
+}
+
+.result_discription1 h2 {
+    color: #DC143C;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c";  
+}
+
+.result_discription2 h2 {
+  color: #DC143C;
+  text-align: center;
+  font-family: "M PLUS Rounded 1c";  
+}
+
+.result_discription3 h2 {
+  color: #DC143C;
+  text-align: center;
+  font-family: "M PLUS Rounded 1c";  
+}
+
+.result_discription0 p {
+    font-family: "M PLUS Rounded 1c";  
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #10c010;
+    color: #303030;
+    font-size: 16px;
+    line-height: 35px;
+    box-shadow: 0px 5px 1px #10c010;
+    border-radius: 5px;
+  }
+.result_discription1 p {
+    font-family: "M PLUS Rounded 1c";  
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #DC143C;
+    color: #303030;
+    font-size: 16px;
+    line-height: 35px;
+    box-shadow: 0px 5px 1px #DC143C;
+    border-radius: 5px;
+  }
+
+.result_discription2 p {
+    font-family: "M PLUS Rounded 1c";  
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #DC143C;
+    color: #303030;
+    font-size: 16px;
+    line-height: 35px;
+    box-shadow: 0px 5px 1px #DC143C;
+    border-radius: 5px;
+  }
+
+.result_discription3 p {
+   font-family: "M PLUS Rounded 1c";  
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #DC143C;
+    color: #303030;
+    font-size: 16px;
+    line-height: 35px;
+    box-shadow: 0px 5px 1px #DC143C;
+    border-radius: 5px;
+  }
+
+
+
+
+.return-btn {
+  margin-top: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 30%;
+    margin-bottom: 100px;
+    font-family: "M PLUS Rounded 1c";  
+}
+.return {
+  display: inline-block;
+  text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #2791d4;
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid #2791d4 ;
+}
+
+.return:hover {
+    border: 1px solid #2791d4 ;
+    background-color: #fff;
+    color: #2791d4;
+    transition: 0.5s;
+}

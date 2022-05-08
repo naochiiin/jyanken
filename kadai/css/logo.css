@@ -1,0 +1,184 @@
+
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Kokoro"; 
+}
+
+/* Loading背景画面設定　*/
+#splash {
+  /*fixedで全面に固定*/
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background:#fff;
+    text-align:center;
+    color:#fff;
+    
+  }
+  
+  /* Loading画像中央配置　*/
+  #splash_logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  
+  /* Loading アイコンの大きさ設定　*/
+  #splash_logo img {
+    width:130px;
+    border-radius: 32px; /*角を丸く*/
+    }
+  
+  /* fadeUpをするアイコンの動き */
+  .fadeUp{
+  animation-name: fadeUpAnime;
+  animation-duration:0.5s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+  }
+  
+  @keyframes fadeUpAnime{
+    from {
+      opacity: 0;
+    transform: translateY(100px);
+    }
+  
+    to {
+      opacity: 1;
+    transform: translateY(0);
+    }
+  }
+
+/* バックビデオ */
+section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+ 
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: auto;
+  min-width: 100%;
+  min-height: 500px;
+  background: url('../img/G\'s\ ACADEMY\ -CM-_Trim.mp4') no-repeat;
+  background-size: cover;
+  z-index: -1;
+  opacity: 0.35 ;
+}
+
+.main_image{
+  position: absolute;
+  width: 380px;
+  top: 75px;
+  left: 489px;
+}
+   
+.main_image img {
+    width: 100%;
+    border-radius: 75px;
+  }
+
+.main_image{
+  max-width: 100%;
+  max-height: 100%;
+} 
+
+.start_btn{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* ねずみくんふわふわ */
+.fuwafuwa {
+  animation:fuwafuwa 3s infinite ease-in-out .8s alternate;
+  background: url(../img/start-removebg-preview.png) no-repeat center center / 80px auto;
+  display: inline-block;
+  transition: 1.5s ease-in-out;
+  width: 150px;
+  height: 150px;
+  margin-top: 473px;
+  display: block;
+  top: 450px;
+  left: 650px;
+  width: 1630px;
+}
+
+
+ 
+@keyframes fuwafuwa {
+  0% {
+    transform:translate(0, 0) rotate(-7deg);
+  }
+  50% {
+    transform:translate(0, -7px) rotate(0deg);
+  }
+  100% {
+    transform:translate(0, 0) rotate(7deg);
+  }
+}
+ 
+/* スタートボタン */
+.btn04 a {
+	background-color: #ceb849;
+	border: 1px solid transparent;
+	border-radius: 35px;
+
+}
+
+.btn04 a::before {
+	content: '';
+	position: absolute;
+	top: -6px; /*外した枠線の上位置*/
+	left: -11px;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	border: 1px solid #333;
+	border-radius: 35px;
+}
+
+.btn04 a:hover {
+	background-color: #B99b00;
+}
+
+
+.textlink a {
+  position: relative;
+  color: #333;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  width: 180px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: 700;
+  left: 35px;
+  margin-top: -150px;
+}
+
+.textlink03 a::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 10px;
+	background-color: rgba(185,155,0,0.5);
+	transition:0.3s;
+  opacity: 0.5;
+}
+
+.textlink03 a:hover::after {
+	width: 100%;
+}
+

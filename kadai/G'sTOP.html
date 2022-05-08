@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/sample.css">
+    <link rel="stylesheet" type="text/css" href="./css/logo.css"><!-- ロゴ用CSS-->
+    <link rel="stylesheet" type="text/css" href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/8-7/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/8-7/css/8-7.css">
+    <title>Chee'sACADEMYキャラクター診断</title>
+</head>
+<body>
+  <!-- ロゴ ローディングアニメーション-->
+  <div id="splash">
+    <div id="splash_logo"><img src="./img/loadChees.jpg" alt="" class="fadeUp"></div>
+      </div>
+
+<!-- バックビデオ -->
+ <section>
+      <video playsinline autoplay muted loop>
+        <source src="./img/c-m-015pc.mp4" type="video/mp4">
+        <source src="video/bg.webm" type="video/webm">
+      </video>
+
+<!--メイン画像  -->
+<div class="main_image">
+  <img src="./img/Chee's ACADEMY.png" alt="チーズアカデミーキャラクター診断">
+</div>
+
+<!-- スタートボタン＋ねずみくんゆらゆら -->
+<div class="fuwafuwa"></div>
+     
+<div class="btn btn04">
+  <p class="textlink textlink03"><a href="./G'sメイン.html">START</a></p>
+    </div>
+
+
+</section>
+
+<header>
+    <div class="wrap_title">
+ 
+</div>
+</header>
+
+
+<SCript>
+//logoの表示
+$(window).on('load',function(){
+    $("#splash").delay(1500).fadeOut('slow');//ローディング画面を1.5秒（1500ms）待機してからフェードアウト
+    $("#splash_logo").delay(1200).fadeOut('slow');//ロゴを1.2秒（1200ms）待機してからフェードアウト
+  });
+
+
+</SCript>
+
+</body>
+</body>
+</html>

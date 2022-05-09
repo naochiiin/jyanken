@@ -16,7 +16,7 @@
 <main>
   <header>
     <h1>
-      <a href="./G'sTOP.html">
+      <a href="./cheez.html">
         <img src="./img/2-removebg-preview.png"  id='imageArea'  height="150" alt="チーズアカデミー">
       </a>
     </h1>
@@ -44,10 +44,10 @@
     <div id="q_02" style="display: none;">
       <p>友人と喧嘩をしたらどうする？</p>
       <ul>
-        <li><a class="btn" href="#q_03" data-value="a">自分から謝る</a></li>
-        <li><a class="btn" href="#q_03" data-value="b">相手が謝ってくるのをまつ</a></li>
-        <li><a class="btn" href="#q_03" data-value="c">なんとなく元通りになる</a></li>
-        <li><a class="btn" href="#q_03" data-value="d">喧嘩をしない</a></li>
+        <li><a class="btn" href="#q_03" data-value="a">自分からごめんなさい</a></li>
+        <li><a class="btn" href="#q_03" data-value="b">相手から謝ってほしい・・・</a></li>
+        <li><a class="btn" href="#q_03" data-value="c">なんとなく元通り！</a></li>
+        <li><a class="btn" href="#q_03" data-value="d">喧嘩しません</a></li>
       </ul>
     </div>
 
@@ -56,9 +56,9 @@
       <p>学校や職場でのあなたのタイプは？</p>
       <ul>
         <li><a class="btn" href="#q_04" data-value="a">リーダー</a></li>
-        <li><a class="btn" href="#q_04" data-value="b">まとめ役</a></li>
-      	<li><a class="btn" href="#q_04" data-value="c">指導者</a></li>
-        <li><a class="btn" href="#q_04" data-value="d">癒し系</a></li>
+        <li><a class="btn" href="#q_04" data-value="b">みんなのまとめ役</a></li>
+      	<li><a class="btn" href="#q_04" data-value="c">指導役</a></li>
+        <li><a class="btn" href="#q_04" data-value="d">かわいがられる癒し系</a></li>
       </ul>
     </div>
 
@@ -66,10 +66,10 @@
     <div id="q_04" style="display: none;">
       <p>１億円が急に手に入ったら…</p>
       <ul>
-        <li><a class="btn" href="#q_05" data-value="a">恵まれない人へ慈善活動</a></li>
-        <li><a class="btn" href="#q_05" data-value="c">豪遊</a></li>
+        <li><a class="btn" href="#q_05" data-value="a">寄付します！</a></li>
+        <li><a class="btn" href="#q_05" data-value="c">とにかく豪遊！贅沢三昧</a></li>
         <li><a class="btn" href="#q_05" data-value="b">元手にしてビジネス</a></li>
-        <li><a class="btn" href="#q_05" data-value="d">貯金</a></li>
+        <li><a class="btn" href="#q_05" data-value="d">ここは堅実に貯金でしょ</a></li>
       </ul>
     </div>
   
@@ -78,10 +78,10 @@
     <div id="q_05" style="display: none;">
       <p>電車などで移動中は…</p>
       <ul>
-        <li><a class="btn end" data-value="d">寝る</a></li>
-        <li><a class="btn end" data-value="b">音楽を聴く</a></li>
-      	<li><a class="btn end" data-value="c">動画を見る</a></li>
-        <li><a class="btn end" data-value="a">ネットサーフィン</a></li>
+        <li><a class="btn end" data-value="d">電車は寝るとこ(˘ω˘)</a></li>
+        <li><a class="btn end" data-value="b">音楽聴くよ～</a></li>
+      	<li><a class="btn end" data-value="c">ようつべ</a></li>
+        <li><a class="btn end" data-value="a">ひらすらネットサーフィン！情報収集かかせません</a></li>
       </ul>
     
     
@@ -108,7 +108,7 @@
       </p>
     </div>
      <div class="return-btn">
-      <a class="return" href="./G'sTOP.html">もどる</a>
+      <a class="return" href="./cheez.html">もどる</a>
      </div>
    </div>
 
@@ -129,7 +129,7 @@
       </p>
     </div>
     <div class="return-btn">
-      <a class="return" href="./G'sTOP.html">もどる</a>
+      <a class="return" href="./cheez.html">もどる</a>
     </div>
   </div>
 
@@ -167,8 +167,10 @@
     </div>
 
   <div class="return-btn">
-      <a class="return" href="./G'sTOP.html">もどる</a>
+      <a class="return" href="./cheez.html">もどる</a>
   </div>
+
+  
 
    </div>
   </div>
@@ -230,13 +232,13 @@ $(".btn").each(function(){
 //結果を出力する関数
    
 $('.end').on('click',function(){
-  if (countA > countB && countA > countC && countA > countD) {
+  if (countA >= countB && countA >= countC && countA >= countD) {
       $('#answer_01').css("display",""); //回答1山崎先生;
        console.log("回答1")
-    } else if (countB > countA && countB > countC && countB > countD) {
+    } else if (countB > countA && countB >= countC && countB >= countD) {
         $('#answer_02').css("display",""); //回答2かのみんさん
         console.log("回答2")
-    } else if (countC > countA && countC > countB && countC > countD) {
+    } else if (countC > countA && countC > countB && countC >= countD) {
      $('#answer_03').css("display",""); //回答3さかじりさん
       console.log("回答3")
     } else if (countD > countA && countD > countB && countD > countC) {

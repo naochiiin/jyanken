@@ -112,7 +112,7 @@ header{
     font-family: "M PLUS Rounded 1c";  
 
   }
-
+/* 回答２〇〇タイプ*/
 .result_type1 h4 {
     width: 50%;
     margin: auto;
@@ -122,9 +122,11 @@ header{
     font-weight: 600;
     color: #fff;
     text-align: center;
-  background-color: #DC143C;
+  background-color: #8EDAE5;
   font-family: "M PLUS Rounded 1c";  
   }
+ 
+ /* 回答３〇〇タイプ */ 
 .result_type2 h4 {
     width: 50%;
     margin: auto;
@@ -134,9 +136,11 @@ header{
     font-weight: 600;
     color: #fff;
     text-align: center;
-  background-color: #DC143C;
+  background-color: #4DC0B2;
   font-family: "M PLUS Rounded 1c";  
   }
+
+ /* 回答４〇〇タイプ */ 
 .result_type3 h4 {
     width: 50%;
     margin: auto;
@@ -146,7 +150,7 @@ header{
     font-weight: 600;
     color: #fff;
     text-align: center;
-  background-color: #DC143C;
+  background-color: #FB7D79;
   font-family: "M PLUS Rounded 1c";  
   }
 
@@ -177,20 +181,23 @@ header{
     font-family: "M PLUS Rounded 1c";  
 }
 
+/* 回答２ メイン*/
 .result_discription1 h2 {
-    color: #DC143C;
+    color: #16C4FD;
     text-align: center;
     font-family: "M PLUS Rounded 1c";  
 }
 
+/* 回答３ メイン*/
 .result_discription2 h2 {
-  color: #DC143C;
+  color: #6AC1B7;
   text-align: center;
   font-family: "M PLUS Rounded 1c";  
 }
 
+/* 回答４ メイン*/
 .result_discription3 h2 {
-  color: #DC143C;
+  color:#FB9D7E;
   text-align: center;
   font-family: "M PLUS Rounded 1c";  
 }
@@ -209,6 +216,8 @@ header{
     box-shadow: 0px 5px 1px #10c010;
     border-radius: 5px;
   }
+
+/* 回答２サブ文字 */  
 .result_discription1 p {
     font-family: "M PLUS Rounded 1c";  
     margin-left: 20%;
@@ -216,14 +225,14 @@ header{
     width: 60%;
     padding: 20px;
     text-align: left;
-    border: 1px solid #DC143C;
+    border: 1px solid #16C4FD;
     color: #303030;
     font-size: 16px;
     line-height: 35px;
-    box-shadow: 0px 5px 1px #DC143C;
+    box-shadow: 0px 5px 1px #16C4FD;
     border-radius: 5px;
   }
-
+/* 回答３サブ文字 */  
 .result_discription2 p {
     font-family: "M PLUS Rounded 1c";  
     margin-left: 20%;
@@ -231,14 +240,14 @@ header{
     width: 60%;
     padding: 20px;
     text-align: left;
-    border: 1px solid #DC143C;
+    border: 1px solid #6AC1B7;
     color: #303030;
     font-size: 16px;
     line-height: 35px;
-    box-shadow: 0px 5px 1px #DC143C;
+    box-shadow: 0px 5px 1px #6AC1B7;
     border-radius: 5px;
   }
-
+/* 回答4  サブ文字 */  
 .result_discription3 p {
    font-family: "M PLUS Rounded 1c";  
     margin-left: 20%;
@@ -246,11 +255,11 @@ header{
     width: 60%;
     padding: 20px;
     text-align: left;
-    border: 1px solid #DC143C;
+    border: 1px solid #FB7D79;
     color: #303030;
     font-size: 16px;
     line-height: 35px;
-    box-shadow: 0px 5px 1px #DC143C;
+    box-shadow: 0px 5px 1px #FB7D79;
     border-radius: 5px;
   }
 
@@ -266,19 +275,20 @@ header{
     font-family: "M PLUS Rounded 1c";  
 }
 .return {
-  display: inline-block;
-  text-align: center;
+    display: inline-block;
+    text-align: center;
     text-decoration: none;
     color: #fff;
-    background-color: #2791d4;
-    width: 100%;
-    padding: 10px 10px;
-    border: 1px solid #2791d4 ;
+    background-color: #C0C0C0;
+    width: 65%;
+    padding: 4px 4px;
+    border: 1px solid #C0C0C0;
+    margin-left: 53px;
 }
 
 .return:hover {
-    border: 1px solid #2791d4 ;
+    border: 1px solid #040404 ;
     background-color: #fff;
-    color: #2791d4;
+    color: #0f0f0f;
     transition: 0.5s;
 }

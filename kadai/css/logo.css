@@ -129,7 +129,7 @@ video {
  
 /* スタートボタン */
 .btn04 a {
-	background-color: #ceb849;
+	background-color: #FFB2AE;
 	border: 1px solid transparent;
 	border-radius: 35px;
 
@@ -148,7 +148,7 @@ video {
 }
 
 .btn04 a:hover {
-	background-color: #B99b00;
+	background-color: #F7D76B;
 }
 
 

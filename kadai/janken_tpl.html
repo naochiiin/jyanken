@@ -21,6 +21,7 @@
   </ul>
   <div>コンピュータの出した手は？「<span id="pc_hands">なに？</span>」</div>
   <div id="judgment">勝ち</div>
+  
 </main>
 
 <footer></footer>
@@ -40,7 +41,7 @@ $("#gu_btn").on("click",function(){
     if(num==2){
       $("#pc_hands").html("チョキ")
       $("#judgment").html("勝ち")
-      console.log("#pc_hands")}
+       console.log("#pc_hands")}
       
     if(num==3){
       $("#pc_hands").html("パー")
@@ -53,13 +54,14 @@ $("#cho_btn").on("click",function(){
     if(num==1){
       $("#pc_hands").html("グー")
       $("#judgment").html("負け")}
+      
     if(num==2){
       $("#pc_hands").html("チョキ")
       $("#judgment").html("あいこ")}
     if(num==3){
       $("#pc_hands").html("パー")
       $("#judgment").html("勝ち")}
-    });
+       });
     
 $("#par_btn").on("click",function(){
     const num = Math.ceil(Math.random()*3);       
@@ -73,8 +75,6 @@ $("#par_btn").on("click",function(){
       $("#pc_hands").html("パー")
       $("#judgment").html("あいこ")}
     });
-
-
 
 </script>
 </body>

@@ -264,7 +264,7 @@ header{
   }
 
 
-
+/* 戻るボタン */
 
 .return-btn {
   margin-top: 5%;
@@ -292,3 +292,5 @@ header{
     color: #0f0f0f;
     transition: 0.5s;
 }
+
+
